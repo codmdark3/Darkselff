@@ -3,7 +3,7 @@ modules = ["python-3.11"]
 
 [nix]
 channel = "stable-24_05"
-packages = ["mailutils", "openssl"]
+packages = ["mailutils", "openssl", "openssh"]
 
 [unitTest]
 language = "python3"
