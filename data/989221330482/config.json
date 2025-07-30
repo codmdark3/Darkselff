@@ -1,0 +1,40 @@
+{
+  "phone": "+989221330482",
+  "api_id": 18904273,
+  "api_hash": "c4c73c3f8cb89f6a7672efa8ab065f95",
+  "session": "session_2.session",
+  "features": {
+    "lockpv": false,
+    "bio": true,
+    "watch": true,
+    "reaction": true,
+    "ghost": true,
+    "calc": true,
+    "quote": true,
+    "ads": true,
+    "rotate_photo": true,
+    "tabchi": {
+      "enabled": false,
+      "groups": [],
+      "message": "",
+      "delay": 5
+    },
+    "action": {
+      "enabled": true,
+      "type": "تایپ",
+      "scope": "خصوصی"
+    },
+    "avatar_rotate": {
+      "photos": [],
+      "enabled": false,
+      "delay": 3
+    },
+    "always_online": false
+  },
+  "bio_mode": "bio",
+  "blocked_commands": [],
+  "avatar_rotate": {
+    "enabled": false,
+    "delay": 300
+  }
+}

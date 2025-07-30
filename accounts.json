@@ -1,0 +1,70 @@
+[
+  {
+    "phone": "+989033674402",
+    "api_id": 29738745,
+    "api_hash": "6f2ab5db43ef0d2c84e32d85c802c846",
+    "session": "user1",
+    "features": {
+      "lockpv": true,
+      "bio": true,
+      "watch": true,
+      "reaction": true,
+      "ghost": true,
+      "calc": true,
+      "quote": true,
+      "ads": true,
+      "rotate_photo": false,
+      "tabchi": {
+        "enabled": true,
+        "groups": [-1001907260728],
+        "message": "🔥 پیام تست",
+        "delay": 1
+      },
+      "action": {
+        "enabled": false,
+        "type": "تایپ",
+        "scope": "همه"
+      }
+    },
+    "bio_mode": "both",
+    "blocked_commands": [],
+    "avatar_rotate": {
+      "enabled": false,
+      "delay": 180
+    }
+  },
+  {
+    "phone": "+989221330482",
+    "api_id": 18904273, 
+    "api_hash": "c4c73c3f8cb89f6a7672efa8ab065f95",
+    "session": "session_2.session",
+    "features": {
+      "lockpv": true,
+      "bio": true,
+      "watch": true,
+      "reaction": true,
+      "ghost": true,
+      "calc": true,
+      "quote": true,
+      "ads": true,
+      "rotate_photo": true,
+      "tabchi": {
+        "enabled": false,
+        "groups": [],
+        "message": "",
+        "delay": 5
+      },
+      "action": {
+        "enabled": true,
+        "type": "تایپ",
+        "scope": "خصوصی"
+      }
+    },
+    "bio_mode": "bio",
+    "blocked_commands": [],
+    "avatar_rotate": {
+      "enabled": false,
+      "delay": 300
+    }
+  }
+]

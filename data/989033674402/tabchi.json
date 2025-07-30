@@ -1,0 +1,29 @@
+{
+  "phone": "+989033674402",
+  "api_id": 29738745,
+  "api_hash": "6f2ab5db43ef0d2c84e32d85c802c846",
+  "session": "user1",
+  "features": {
+    "lockpv": true,
+    "bio": true,
+    "watch": true,
+    "reaction": true,
+    "ghost": true,
+    "calc": true,
+    "quote": true,
+    "ads": true,
+    "rotate_photo": false,
+    "tabchi": {
+      "enabled": true,
+      "groups": [-1001907260728, -4950718641],
+      "message": "🔥 ممبر میزنی؟ اک میدی؟ پیام بده 🔥",
+      "delay": 1
+    }
+  },
+  "bio_mode": "both",
+  "blocked_commands": [],
+  "avatar_rotate": {
+    "enabled": false,
+    "delay": 180
+  }
+}
