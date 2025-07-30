@@ -4,7 +4,7 @@
   "api_hash": "c4c73c3f8cb89f6a7672efa8ab065f95",
   "session": "session_2.session",
   "features": {
-    "lockpv": false,
+    "lockpv": true,
     "bio": true,
     "watch": true,
     "reaction": true,
