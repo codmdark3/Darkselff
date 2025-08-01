@@ -4,6 +4,9 @@ from selfbot.client import create_all_clients
 import handlers_loader
 from my_handlers import star_opener  # ✅ اضافه شد
 
+from flask import Flask  # ✅ اضافه شد
+from threading import Thread  # ✅ اضافه شد
+
 # 🔹 تنظیمات لاگ برای دیباگ
 logging.basicConfig(
     level=logging.INFO,
@@ -13,6 +16,20 @@ logging.basicConfig(
 
 # 🔸 فونت زیباتر برای کلمه DARK
 DARK_LOGO = "𝐃𝐀𝐑𝐊"
+
+# ✅ وب سرور برای زنده نگه‌داشتن پروژه
+app = Flask('')
+
+@app.route('/')
+def home():
+    return "I'm alive!"
+
+def run():
+    app.run(host='0.0.0.0', port=8080)
+
+def keep_alive():
+    t = Thread(target=run)
+    t.start()
 
 async def start_all():
     clients = create_all_clients()
@@ -53,6 +70,7 @@ async def start_all():
 
 if __name__ == "__main__":
     try:
+        keep_alive()  # ✅ اجرای وب‌سرور برای جلوگیری از خاموشی
         asyncio.run(start_all())
     except KeyboardInterrupt:
         logging.info("🛑 برنامه متوقف شد توسط کاربر.")
